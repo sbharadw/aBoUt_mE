@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/1d80ab8c3d.js" crossorigin="anonymous"></script>
 
 
     <title>Contact Page</title>
@@ -45,7 +46,7 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <h1 class="page-header sb">Contact</h1>
                 <hr>
             </div>
@@ -53,55 +54,79 @@
         </div>
     </div>
 
-<!-- FORMS -->
+    <!-- FORMS -->
+<div class="row">
+    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+    <section class="container-fluid">
+        <div class="card" style="width: 50rem;">
+            <div class="card-body card-block card-text">
+                <form>
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" class="form-control" placeholder="Add Name">
+                    </div>
 
-<section class="container">
-    <div class="card" style="width: 60 rem;">
-        <div class="card-body card-block">
-    <form>
-      <div class="form-group">
-        <label>Name</label>
-        <input type="text" class="form-control" placeholder="Add Name">
-      </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control" placeholder="Add Email">
+                    </div>
 
-      <div class="form-group">
-        <label>Email</label>
-        <input type="email" class="form-control" placeholder="Add Email">
-      </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea class="form-control" placeholder="Add Message"></textarea>
+                    </div>
 
-      <div class="form-group">
-        <label>Message</label>
-        <textarea class="form-control" placeholder="Add Message"></textarea>
-      </div>
+                    <div class="form-group">
+                        <label>Gender</label>
+                        <select class="form-control">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
 
-      <div class="form-group">
-        <label>Gender</label>
-        <select class="form-control">
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-          <option value="other">Other</option>
-        </select>
-      </div>
+                    <div class="form-group">
+                        <label>Upload File</label>
+                        <input type="file">
+                        <p class="help-block">Only png and jpg allowed</p>
+                    </div>
 
-      <div class="form-group">
-        <label>Upload File</label>
-        <input type="file">
-        <p class="help-block">Only png and jpg allowed</p>
-      </div>
 
-      <div class="flex-parent jc-center">
-        <button type="submit" class="btn btn-default">Submit</button>
-      </div>
-     
-      </form>
-</div>
-</div>
+
+                    <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-default">Submit</button>
+                      </div>
+
+                </form>
+            </div>
+        </div>
     </section>
+</div>
+
+    <div class="col-lg-4 col-md-4, col-sm-12, col-xs-12"></section>
+
+        <section class="card sbcardsize">
+            <div class="card-body card-block" style="text-align: center;">
+                <h5 class="card-title">Social Media</h5>
+                <a class="button" href="https://www.linkedin.com/in/satyam-b-8a74685b" target="_blank" class="card-link"
+                    alt="linkedin"><i class="fab fa-linkedin-in" style="font-size: 3em; color: #0e76a8; padding: 30px;"></i></a>
+                <a class="button" href="https://github.com/sbharadw" target="_blank" class="card-link" alt="github"><i
+                        class="fab fa-github" style="font-size: 3em; color: #211F1F; padding: 30px;"></i></a>
+                <a class="button" href="https://www.facebook.com/satyam.bharadwaj.9" target="_blank" class="card-link"
+                    alt="facebook"><i class="fab fa-facebook-square" style="font-size: 3em; color: #3b5998; padding: 30px;"></i></a>
+                <a class="button" href="https://stackoverflow.com/users/14303852/satyam-b" target="_blank" class="card-link"
+                    alt="stackoverflow"><i class="fab fa-stack-overflow" style="font-size: 3em; color: #ef8236; padding-left: 30px;"></i></a>
+            </div>
+        </section>
+
+    </div>
+</div>
+
 
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-lg-4 col-md-4, col-sm-12, col-xs-12">
                     <footer class="foot-container text-center sbfooter">
                         &copy; Copyright 2020: Satyam Bharadwaj
                     </footer>
@@ -110,7 +135,7 @@
         </div>
     </section>
 
-    
+
 
 
 
